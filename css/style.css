@@ -1,0 +1,30 @@
+/* Header */
+
+header {
+    height: 80px;
+    background-color: lightblue;
+}
+
+.main-content {
+    height: calc(100vh - 100px);
+    background-color: dodgerblue;
+    overflow: auto;
+    display: flex;
+}
+
+.main-header {
+    height: 100px;
+    background-color: red;
+}
+
+.sidebar {
+    flex-basis: 80px;
+    flex-shrink: 0;
+    background-color: blueviolet;
+}
+
+main {
+    flex-grow: 1;
+    background-color: greenyellow;
+    overflow: auto;
+}
