@@ -19,7 +19,17 @@
     </header>
 
     <div class="lower-content">
-        <div class="sidebar"></div>
+        <div class="sidebar text-center fs-5">
+            <div class="row py-4">
+                <div class="col text-white">
+                    <ul class="list-unstyled">
+                        <li class="py-1"><i class="fa-solid fa-house"></i><span>Home</span></li>
+                        <li class="py-1"><i class="fa-solid fa-chart-simple"></i><span>Stats</span></li>
+                        <li class="py-1"><i class="fa-solid fa-signal"></i> <span>Signals</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <main>
             <div class="main-header"></div>
             <div class="main-content p-4">
@@ -167,22 +177,43 @@
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="card mb-4">
+                            <div class="card-header fs-3 fw-semibold pt-0 pb-3">
+                                Todo
+                            </div>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                      <label class="form-check-label fw-medium" for="firstCheckbox">Kickoff nuove classi</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                      <label class="form-check-label fw-medium" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                      <label class="form-check-label fw-medium" for="thirdCheckbox">Controllare username github studenti</label>
+                                    </li>
+                                  </ul>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header">
-                              Featured
-                            </div>
                             <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="card">
+                                    <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Utenti attivi</h5>
+                                      <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Gennaio: 1200</li>
+                                      <li class="list-group-item">Febbraio: 800</li>
+                                      <li class="list-group-item">Marzo: 1500</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link">Visualizza report approfondito</a>
+                                    </div>
+                                  </div>
                             </div>
                         </div>
                     </div>

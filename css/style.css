@@ -7,7 +7,7 @@ header {
 
 .lower-content {
     height: calc(100vh - 80px);
-    background-color: dodgerblue;
+    background-color: #fff;
     overflow: auto;
     display: flex;
 }
@@ -18,8 +18,8 @@ header {
 }
 
 .sidebar {
-    flex: 0 0 100px;
-    background-color: blueviolet;
+    flex: 0 0 80px;
+    background-color: #051E34;
 }
 
 main {
@@ -31,7 +31,7 @@ main {
 
 .main-content {
     height: calc(100% - 100px);
-    background-color: dodgerblue;
+    background-color: #F8F9FA;
     overflow: auto;
 }
 
