@@ -20,10 +20,25 @@
                 <nav class="navbar">
                     <form class="container-fluid">
                       <div class="input-group">
-                        <div><img src="img/mobile-logo.png" alt=""></div>
-                        <span class="input-group-text border-0 search bg-gray rounded-start-2" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="text" class="form-control border-start-0 me-5 bg-gray rounded-end-2" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                        <div class="d-flex align-items-center"><i class="fa-solid fa-bell golden-bell"></i></div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/mobile-logo.png" class="me-2 d-inline d-lg-none" alt="">
+                            <img src="img/logo.svg" class="me-2 d-none d-lg-inline img-logo-full" alt="">
+                        </div>
+                        <span class="input-group-text border-0 search bg-gray rounded-start-2 py-1" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control border-start-0 me-3 bg-gray rounded-end-2 p-2" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-list-ul d-none d-lg-inline"></i>
+                            <i class="fa-solid fa-circle-question ps-3 d-none d-lg-inline"></i>
+                            <i class="fa-solid fa-ellipsis-vertical ps-3 d-none d-lg-inline"></i>
+                            <div class="dropstart">
+                                <i class="fa-solid fa-bell ps-lg-3 ps-2 golden-bell" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+                        </div>
                       </div>
                     </form>
                 </nav>        

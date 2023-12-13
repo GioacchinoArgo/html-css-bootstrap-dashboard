@@ -50,11 +50,18 @@ header img {
     width: 40px;
 }
 
+.img-logo-full {
+    width: 90px;
+}
+
 .golden-bell {
     color: #FF8F00;
 }
 
 .bg-gray {
     background-color: #E5E5E5;
-    
+
 }
+
+
+
