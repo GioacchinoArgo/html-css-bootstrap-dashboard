@@ -14,9 +14,20 @@
 </head>
 <body>
 
-    <header>
-        <div class="row">
-            <div class="col"></div>
+    <header class="d-flex justify-content-center align-items-center">
+        <div class="row flex-grow-1">
+            <div class="col">
+                <nav class="navbar">
+                    <form class="container-fluid">
+                      <div class="input-group">
+                        <div><img src="img/mobile-logo.png" alt=""></div>
+                        <span class="input-group-text border-0 search bg-gray rounded-start-2" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control border-start-0 me-5 bg-gray rounded-end-2" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="d-flex align-items-center"><i class="fa-solid fa-bell golden-bell"></i></div>
+                      </div>
+                    </form>
+                </nav>        
+            </div>
         </div>
     </header>
 
@@ -49,7 +60,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col" class="fw-medium">Nome</th>
-                                            <th scope="col" class="text-center fw-medium  d-none d-md-table-cell">Data Inizio</th>
+                                            <th scope="col" class="text-center fw-medium d-none d-md-table-cell">Data Inizio</th>
                                             <th scope="col" class="text-center fw-medium d-none d-md-table-cell">ROI</th>
                                             <th scope="col" class="text-center fw-medium">Stato</th>
                                             <th scope="col" class="text-center fw-medium">Azioni</th>

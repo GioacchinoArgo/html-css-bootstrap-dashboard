@@ -2,7 +2,7 @@
 
 header {
     height: 80px;
-    background-color: lightblue;
+    background-color: #FFFFFF;
 }
 
 .lower-content {
@@ -44,4 +44,17 @@ td img {
 .table i {
     border: 1px solid gray;
     margin-left: 10px;
+}
+
+header img {
+    width: 40px;
+}
+
+.golden-bell {
+    color: #FF8F00;
+}
+
+.bg-gray {
+    background-color: #E5E5E5;
+    
 }
