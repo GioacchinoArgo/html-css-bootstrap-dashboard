@@ -20,6 +20,7 @@ header {
 .sidebar {
     flex: 0 0 80px;
     background-color: #051E34;
+    background-image: url('/img/sidebar-bg.png');
 }
 
 main {

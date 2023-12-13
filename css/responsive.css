@@ -1,0 +1,18 @@
+/* Medium - Tablet */
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+/* Large - Desktop */
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        flex: 0 0 160px;
+    }
+
+    .sidebar ul {
+        align-items: flex-start;
+    }
+}
